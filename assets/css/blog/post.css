@@ -1,3 +1,14 @@
+.post-box {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06);
+
+    margin: 15px;
+    background: white;
+    border-radius: 5px;
+}
+
 .post-header {
     margin-top: 60px;
     text-align: center;
@@ -9,7 +20,7 @@
 
 .post-excerpt {
     color: var(--secondary-text-color);
-    font-size: 20px;
+    font-size: 12px;
     line-height: 1.5;
     text-align: center;
 }
@@ -59,7 +70,7 @@
     }
 
     .post-excerpt {
-        font-size: 18px;
+        font-size: 10px;
     }
 
     .post-media,
